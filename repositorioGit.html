@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Como criar um repositório usando github</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Como criar um repositório usando github</h1>
+  <section>
+    <h2>Passos para criar um repositório de projeto usando Git</h2>
+    <ol>
+      <li>Crie o repositório no GitHub: clique em "New" e preencha nome, descrição e visibilidade.</li>
+      <li>No seu projeto local, inicialize o repositório Git:
+        <pre><code>git init</code></pre>
+      </li>
+      <li>Adicione arquivos e crie o primeiro commit:
+        <pre><code>git add .
+git commit -m "Initial commit"</code></pre>
+      </li>
+      <li>Defina o branch principal (opcional):
+        <pre><code>git branch -M main</code></pre>
+      </li>
+      <li>Adicione o remote origin (substitua a URL pelo endereço do repositório GitHub):
+        <pre><code>git remote add origin https://github.com/USERNAME/REPO.git</code></pre>
+      </li>
+      <li>Envie (push) o commit para o GitHub:
+        <pre><code>git push -u origin main</code></pre>
+      </li>
+      <li>No GitHub, verifique os arquivos e ajuste `README.md`, `.gitignore` e configurações do repositório.</li>
+    </ol>
+  </section>
+</body>
+</html>
